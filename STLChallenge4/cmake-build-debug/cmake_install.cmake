@@ -1,4 +1,4 @@
-# Install script for directory: /Users/nanni/Documents/cpp_study/testtest
+# Install script for directory: /Users/nanni/Documents/Cpp_study/STLChallenge4
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/nanni/Documents/cpp_study/testtest/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/nanni/Documents/Cpp_study/STLChallenge4/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

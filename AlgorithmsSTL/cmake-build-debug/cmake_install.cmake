@@ -1,4 +1,4 @@
-# Install script for directory: /Users/nanni/Documents/CLionProjects/AlgorithmsSTL
+# Install script for directory: /Users/nanni/Documents/Cpp_study/AlgorithmsSTL
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/nanni/Documents/CLionProjects/AlgorithmsSTL/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/nanni/Documents/Cpp_study/AlgorithmsSTL/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

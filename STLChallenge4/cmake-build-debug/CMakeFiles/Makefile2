@@ -44,21 +44,21 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/nanni/Documents/cpp_study/testtest
+CMAKE_SOURCE_DIR = /Users/nanni/Documents/Cpp_study/STLChallenge4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/nanni/Documents/cpp_study/testtest/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/nanni/Documents/Cpp_study/STLChallenge4/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/testtest.dir/all
+all: CMakeFiles/STLChallenge4.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
-clean: CMakeFiles/testtest.dir/clean
+clean: CMakeFiles/STLChallenge4.dir/clean
 
 .PHONY : clean
 
@@ -68,31 +68,31 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
-# Target rules for target CMakeFiles/testtest.dir
+# Target rules for target CMakeFiles/STLChallenge4.dir
 
 # All Build rule for target.
-CMakeFiles/testtest.dir/all:
-	$(MAKE) -f CMakeFiles/testtest.dir/build.make CMakeFiles/testtest.dir/depend
-	$(MAKE) -f CMakeFiles/testtest.dir/build.make CMakeFiles/testtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/nanni/Documents/cpp_study/testtest/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target testtest"
-.PHONY : CMakeFiles/testtest.dir/all
+CMakeFiles/STLChallenge4.dir/all:
+	$(MAKE) -f CMakeFiles/STLChallenge4.dir/build.make CMakeFiles/STLChallenge4.dir/depend
+	$(MAKE) -f CMakeFiles/STLChallenge4.dir/build.make CMakeFiles/STLChallenge4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/nanni/Documents/Cpp_study/STLChallenge4/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target STLChallenge4"
+.PHONY : CMakeFiles/STLChallenge4.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/testtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nanni/Documents/cpp_study/testtest/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/testtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nanni/Documents/cpp_study/testtest/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/testtest.dir/rule
+CMakeFiles/STLChallenge4.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nanni/Documents/Cpp_study/STLChallenge4/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/STLChallenge4.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nanni/Documents/Cpp_study/STLChallenge4/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/STLChallenge4.dir/rule
 
 # Convenience name for target.
-testtest: CMakeFiles/testtest.dir/rule
+STLChallenge4: CMakeFiles/STLChallenge4.dir/rule
 
-.PHONY : testtest
+.PHONY : STLChallenge4
 
 # clean rule for target.
-CMakeFiles/testtest.dir/clean:
-	$(MAKE) -f CMakeFiles/testtest.dir/build.make CMakeFiles/testtest.dir/clean
-.PHONY : CMakeFiles/testtest.dir/clean
+CMakeFiles/STLChallenge4.dir/clean:
+	$(MAKE) -f CMakeFiles/STLChallenge4.dir/build.make CMakeFiles/STLChallenge4.dir/clean
+.PHONY : CMakeFiles/STLChallenge4.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
