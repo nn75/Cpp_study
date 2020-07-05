@@ -44,21 +44,21 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/nanni/Documents/Cpp_study/STLChallenge3
+CMAKE_SOURCE_DIR = /Users/nanni/Documents/CLionProjects/AlgorithmsSTL
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/nanni/Documents/Cpp_study/STLChallenge3/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/nanni/Documents/CLionProjects/AlgorithmsSTL/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/STLChallenge3.dir/all
+all: CMakeFiles/AlgorithmsSTL.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
-clean: CMakeFiles/STLChallenge3.dir/clean
+clean: CMakeFiles/AlgorithmsSTL.dir/clean
 
 .PHONY : clean
 
@@ -68,31 +68,31 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
-# Target rules for target CMakeFiles/STLChallenge3.dir
+# Target rules for target CMakeFiles/AlgorithmsSTL.dir
 
 # All Build rule for target.
-CMakeFiles/STLChallenge3.dir/all:
-	$(MAKE) -f CMakeFiles/STLChallenge3.dir/build.make CMakeFiles/STLChallenge3.dir/depend
-	$(MAKE) -f CMakeFiles/STLChallenge3.dir/build.make CMakeFiles/STLChallenge3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/nanni/Documents/Cpp_study/STLChallenge3/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target STLChallenge3"
-.PHONY : CMakeFiles/STLChallenge3.dir/all
+CMakeFiles/AlgorithmsSTL.dir/all:
+	$(MAKE) -f CMakeFiles/AlgorithmsSTL.dir/build.make CMakeFiles/AlgorithmsSTL.dir/depend
+	$(MAKE) -f CMakeFiles/AlgorithmsSTL.dir/build.make CMakeFiles/AlgorithmsSTL.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/nanni/Documents/CLionProjects/AlgorithmsSTL/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target AlgorithmsSTL"
+.PHONY : CMakeFiles/AlgorithmsSTL.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/STLChallenge3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nanni/Documents/Cpp_study/STLChallenge3/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/STLChallenge3.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nanni/Documents/Cpp_study/STLChallenge3/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/STLChallenge3.dir/rule
+CMakeFiles/AlgorithmsSTL.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nanni/Documents/CLionProjects/AlgorithmsSTL/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/AlgorithmsSTL.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nanni/Documents/CLionProjects/AlgorithmsSTL/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/AlgorithmsSTL.dir/rule
 
 # Convenience name for target.
-STLChallenge3: CMakeFiles/STLChallenge3.dir/rule
+AlgorithmsSTL: CMakeFiles/AlgorithmsSTL.dir/rule
 
-.PHONY : STLChallenge3
+.PHONY : AlgorithmsSTL
 
 # clean rule for target.
-CMakeFiles/STLChallenge3.dir/clean:
-	$(MAKE) -f CMakeFiles/STLChallenge3.dir/build.make CMakeFiles/STLChallenge3.dir/clean
-.PHONY : CMakeFiles/STLChallenge3.dir/clean
+CMakeFiles/AlgorithmsSTL.dir/clean:
+	$(MAKE) -f CMakeFiles/AlgorithmsSTL.dir/build.make CMakeFiles/AlgorithmsSTL.dir/clean
+.PHONY : CMakeFiles/AlgorithmsSTL.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
