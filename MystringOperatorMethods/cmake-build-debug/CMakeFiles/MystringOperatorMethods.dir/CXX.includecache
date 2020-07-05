@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/nanni/Documents/CLionProjects/MystringOperatorMethods/Mystring.cpp
+cstring
+-
+iostream
+-
+Mystring.h
+/Users/nanni/Documents/CLionProjects/MystringOperatorMethods/Mystring.h
+
+/Users/nanni/Documents/CLionProjects/MystringOperatorMethods/Mystring.h
+
+/Users/nanni/Documents/CLionProjects/MystringOperatorMethods/main.cpp
+iostream
+-
+Mystring.h
+/Users/nanni/Documents/CLionProjects/MystringOperatorMethods/Mystring.h
+

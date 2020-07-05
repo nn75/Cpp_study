@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MystringOperatorMethods"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/nanni/Documents/CLionProjects/MystringOperatorMethods/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/nanni/Documents/CLionProjects/MystringOperatorMethods/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/nanni/Documents/CLionProjects/MystringOperatorMethods/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/nanni/Documents/CLionProjects/MystringOperatorMethods/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/nanni/Documents/CLionProjects/MystringOperatorMethods/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/nanni/Documents/CLionProjects/MystringOperatorMethods/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/nanni/Documents/CLionProjects/MystringOperatorMethods/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/nanni/Documents/CLionProjects/MystringOperatorMethods/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/nanni/Documents/CLionProjects/MystringOperatorMethods/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/nanni/Documents/CLionProjects/MystringOperatorMethods/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/nanni/Documents/CLionProjects/MystringOperatorMethods/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/nanni/Documents/CLionProjects/MystringOperatorMethods/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/nanni/Documents/CLionProjects/MystringOperatorMethods/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/nanni/Documents/CLionProjects/MystringOperatorMethods/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/nanni/Documents/CLionProjects/MystringOperatorMethods/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MystringOperatorMethods">
+				<Option output="/Users/nanni/Documents/CLionProjects/MystringOperatorMethods/cmake-build-debug/MystringOperatorMethods" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nanni/Documents/CLionProjects/MystringOperatorMethods/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/nanni/Documents/CLionProjects/MystringOperatorMethods/cmake-build-debug/Makefile&quot;  VERBOSE=1 MystringOperatorMethods"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/nanni/Documents/CLionProjects/MystringOperatorMethods/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/nanni/Documents/CLionProjects/MystringOperatorMethods/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/nanni/Documents/CLionProjects/MystringOperatorMethods/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MystringOperatorMethods/fast">
+				<Option output="/Users/nanni/Documents/CLionProjects/MystringOperatorMethods/cmake-build-debug/MystringOperatorMethods" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nanni/Documents/CLionProjects/MystringOperatorMethods/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/nanni/Documents/CLionProjects/MystringOperatorMethods/cmake-build-debug/Makefile&quot;  VERBOSE=1 MystringOperatorMethods/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/nanni/Documents/CLionProjects/MystringOperatorMethods/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/nanni/Documents/CLionProjects/MystringOperatorMethods/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/nanni/Documents/CLionProjects/MystringOperatorMethods/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/nanni/Documents/CLionProjects/MystringOperatorMethods/Mystring.cpp">
+			<Option target="MystringOperatorMethods"/>
+		</Unit>
+		<Unit filename="/Users/nanni/Documents/CLionProjects/MystringOperatorMethods/Mystring.h">
+			<Option target="MystringOperatorMethods"/>
+		</Unit>
+		<Unit filename="/Users/nanni/Documents/CLionProjects/MystringOperatorMethods/main.cpp">
+			<Option target="MystringOperatorMethods"/>
+		</Unit>
+		<Unit filename="/Users/nanni/Documents/CLionProjects/MystringOperatorMethods/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

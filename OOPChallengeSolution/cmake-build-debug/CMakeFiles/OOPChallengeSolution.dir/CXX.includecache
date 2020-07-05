@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/nanni/Documents/CLionProjects/OOPChallengeSolution/Movie.h
+string
+-
+
+/Users/nanni/Documents/CLionProjects/OOPChallengeSolution/Movies.cpp
+Movies.h
+/Users/nanni/Documents/CLionProjects/OOPChallengeSolution/Movies.h
+
+/Users/nanni/Documents/CLionProjects/OOPChallengeSolution/Movies.h
+iostream
+-
+vector
+-
+Movie.h
+/Users/nanni/Documents/CLionProjects/OOPChallengeSolution/Movie.h
+

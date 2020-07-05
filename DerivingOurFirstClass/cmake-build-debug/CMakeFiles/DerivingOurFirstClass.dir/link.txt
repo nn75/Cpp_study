@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/DerivingOurFirstClass.dir/main.cpp.o CMakeFiles/DerivingOurFirstClass.dir/Account.cpp.o CMakeFiles/DerivingOurFirstClass.dir/Savings_Account.cpp.o  -o DerivingOurFirstClass 

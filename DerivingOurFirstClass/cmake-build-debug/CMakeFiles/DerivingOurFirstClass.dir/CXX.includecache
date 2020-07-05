@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/nanni/Documents/CLionProjects/DerivingOurFirstClass/Account.cpp
+iostream
+-
+Account.h
+/Users/nanni/Documents/CLionProjects/DerivingOurFirstClass/Account.h
+
+/Users/nanni/Documents/CLionProjects/DerivingOurFirstClass/Account.h
+
+/Users/nanni/Documents/CLionProjects/DerivingOurFirstClass/Savings_Account.cpp
+Savings_Account.h
+/Users/nanni/Documents/CLionProjects/DerivingOurFirstClass/Savings_Account.h
+
+/Users/nanni/Documents/CLionProjects/DerivingOurFirstClass/Savings_Account.h
+Account.h
+/Users/nanni/Documents/CLionProjects/DerivingOurFirstClass/Account.h
+
+/Users/nanni/Documents/CLionProjects/DerivingOurFirstClass/main.cpp
+iostream
+-
+Account.h
+/Users/nanni/Documents/CLionProjects/DerivingOurFirstClass/Account.h
+

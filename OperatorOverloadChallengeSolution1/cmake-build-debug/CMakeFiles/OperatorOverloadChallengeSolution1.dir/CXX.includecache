@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/nanni/Documents/CLionProjects/OperatorOverloadChallengeSolution1/Mystring.cpp
+iostream
+-
+cstring
+-
+Mystring.h
+/Users/nanni/Documents/CLionProjects/OperatorOverloadChallengeSolution1/Mystring.h
+
+/Users/nanni/Documents/CLionProjects/OperatorOverloadChallengeSolution1/Mystring.h
+
+/Users/nanni/Documents/CLionProjects/OperatorOverloadChallengeSolution1/main.cpp
+iostream
+-
+Mystring.h
+/Users/nanni/Documents/CLionProjects/OperatorOverloadChallengeSolution1/Mystring.h
+
